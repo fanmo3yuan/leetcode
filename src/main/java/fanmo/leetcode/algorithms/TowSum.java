@@ -46,8 +46,6 @@ public class TowSum {
             map.put(nums[i], i);
         }
 
-        Set<String> set = new HashSet<String>();
-
         return pos;
     }
 
