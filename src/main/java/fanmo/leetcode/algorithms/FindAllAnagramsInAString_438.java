@@ -12,7 +12,7 @@ import java.util.List;
  * @author fanmo
  * @date 2019/07/27
  */
-public class FindAllAnagramsInAString438 {
+public class FindAllAnagramsInAString_438 {
 
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> list = new ArrayList<>();
@@ -52,7 +52,7 @@ public class FindAllAnagramsInAString438 {
     }
 
     public static void main(String[] args) {
-        FindAllAnagramsInAString438 fas = new FindAllAnagramsInAString438();
+        FindAllAnagramsInAString_438 fas = new FindAllAnagramsInAString_438();
 
         Assert.assertTrue(ListUtil.listEquals(fas.findAnagrams("cbaebabacd", "abc"),
                 ListUtil.list(0, 6), false));

@@ -2,18 +2,13 @@ package fanmo.leetcode.algorithms;
 
 import org.junit.Assert;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-
 /**
  * {@see https://leetcode-cn.com/problems/permutation-in-string/}
  *
  * @author fanmo
  * @date 2019/07/27
  */
-public class PermutationInString567 {
+public class PermutationInString_567 {
 
     public boolean checkInclusion(String s1, String s2) {
         if (null == s1 || null == s2 || s1.length() > s2.length()) {
@@ -49,7 +44,7 @@ public class PermutationInString567 {
     }
 
     public static void main(String[] args) {
-        PermutationInString567 pis = new PermutationInString567();
+        PermutationInString_567 pis = new PermutationInString_567();
 
         Assert.assertTrue(pis.checkInclusion("a", "a"));
         Assert.assertTrue(pis.checkInclusion("eidbaooo", "eidbaooo"));
