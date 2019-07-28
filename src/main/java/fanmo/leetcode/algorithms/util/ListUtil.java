@@ -1,6 +1,5 @@
 package fanmo.leetcode.algorithms.util;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -35,14 +34,6 @@ public class ListUtil {
             }
         }
         return true;
-    }
-
-    public static <T> List<T> list(T... arrays) {
-        List<T> list = new ArrayList<>();
-        for (T t : arrays) {
-            list.add(t);
-        }
-        return list;
     }
 
 }

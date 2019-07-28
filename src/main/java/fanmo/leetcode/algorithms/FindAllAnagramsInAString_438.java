@@ -4,6 +4,7 @@ import fanmo.leetcode.algorithms.util.ListUtil;
 import org.junit.Assert;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -55,11 +56,11 @@ public class FindAllAnagramsInAString_438 {
         FindAllAnagramsInAString_438 fas = new FindAllAnagramsInAString_438();
 
         Assert.assertTrue(ListUtil.listEquals(fas.findAnagrams("cbaebabacd", "abc"),
-                ListUtil.list(0, 6), false));
+                Arrays.asList(0, 6), false));
         Assert.assertTrue(ListUtil.listEquals(fas.findAnagrams("abab", "ab"),
-                ListUtil.list(0, 1, 2), false));
+                Arrays.asList(0, 1, 2), false));
         Assert.assertTrue(ListUtil.listEquals(fas.findAnagrams("baa", "aa"),
-                ListUtil.list(1), false));
+                Arrays.asList(1), false));
     }
 
 }
